@@ -1,0 +1,6 @@
+{
+  "name": "The Entertainment",
+  "description": "Your little corner of the internet. A cosmic playground of tiny games, satisfying toys, brain snacks, ridiculous laughs, and cozy midnight vibes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
