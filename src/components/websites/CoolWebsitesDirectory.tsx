@@ -14,6 +14,19 @@ export const CoolWebsitesDirectory: React.FC<CoolWebsitesDirectoryProps> = ({
 }) => {
   const [selectedTag, setSelectedTag] = useState<string>('All');
 
+  const handleGemClick = (e: React.MouseEvent<HTMLAnchorElement>, realUrl: string) => {
+    e.preventDefault();
+    const hasSeenAd = sessionStorage.getItem('monetag_triggered');
+
+    if (!hasSeenAd) {
+      window.open('https://uplcm.com/4/11990008', '_blank');
+      sessionStorage.setItem('monetag_triggered', 'true');
+    } else {
+      window.open(realUrl, '_blank');
+      sessionStorage.removeItem('monetag_triggered');
+    }
+  };
+  
   const categories = ['All', ...new Set(COOL_WEBSITES.map(w => w.category))];
 
   const filtered = selectedTag === 'All'
@@ -99,11 +112,12 @@ export const CoolWebsitesDirectory: React.FC<CoolWebsitesDirectoryProps> = ({
                   </span>
 
                   <a
-                    href={site.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={site.url} 
+                    onClick={(e) => handleGemClick(e, site.url)}
+                    target="_blank" 
+                    rel="noopener noreferrer" 
                     className="inline-flex items-center gap-1.5 font-semibold text-teal-400 hover:text-teal-300 group-hover:underline cursor-pointer"
-                  >
+                 >
                     <span>Visit Website</span>
                     <ExternalLink className="w-3.5 h-3.5" />
                   </a>
