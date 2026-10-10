@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://the-entertainment.web.app/</loc>
+    <loc>https://the-entertainment.vercel.app/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://the-entertainment.web.app/#lol</loc>
+    <loc>https://the-entertainment.vercel.app/#lol</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://the-entertainment.web.app/#play</loc>
+    <loc>https://the-entertainment.vercel.app/#play</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://the-entertainment.web.app/#satisfying</loc>
+    <loc>https://the-entertainment.vercel.app/#satisfying</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://the-entertainment.web.app/#brain</loc>
+    <loc>https://the-entertainment.vercel.app/#brain</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://the-entertainment.web.app/#midnight</loc>
+    <loc>https://the-entertainment.vercel.app/#midnight</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://the-entertainment.web.app/#weird</loc>
+    <loc>https://the-entertainment.vercel.app/#weird</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://the-entertainment.web.app/#creative</loc>
+    <loc>https://the-entertainment.vercel.app/#creative</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://the-entertainment.web.app/#escape</loc>
+    <loc>https://the-entertainment.vercel.app/#escape</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://the-entertainment.web.app/#websites</loc>
+    <loc>https://the-entertainment.vercel.app/#websites</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://the-entertainment.web.app/#creator</loc>
+    <loc>https://the-entertainment.vercel.app/#creator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
