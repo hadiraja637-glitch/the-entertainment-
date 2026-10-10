@@ -99,12 +99,9 @@ export default function App() {
   };
 
   // Surprise Me Action
-  const handleSurpriseMe = () => {
-    sound.playSuccess();
-    confetti({ particleCount: 60, spread: 70, origin: { y: 0.3 } });
-    const randomItem = ENTERTAINMENT_ITEMS[Math.floor(Math.random() * ENTERTAINMENT_ITEMS.length)];
-    navigateToCategory(randomItem.category, randomItem.componentId);
-  };
+const handleSurpriseMe = () => {
+  window.open("https://uplcm.com/4/11990008", "_blank");
+};
 
   // Reset all local storage data
   const handleResetLocalData = () => {
